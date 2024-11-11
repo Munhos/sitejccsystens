@@ -1,0 +1,167 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+body{
+    background: #161616;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+header{
+    max-width: 1920px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > img {
+    width: 230px;
+}
+
+header > nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > nav > ol {
+    display: flex;
+}
+
+header > nav > ol > li {
+    margin: 10px;
+}
+
+header > nav > ol > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+#cntBtnNav {
+    width: 30%;
+    background: linear-gradient(to right, #9A2252, #BF0E54);
+    padding: 15px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#cntBtnNav > a {
+    color: white;
+    text-decoration: none;
+}
+
+/* MAIN ////////////////////////////// */
+
+main {
+    display: flex;
+    width: 1920px;
+    flex-direction: column;
+}
+
+#mainParte1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#ctn1Main {
+    width: 50%;
+}
+
+#mainP1 {
+    color: white;
+    font-size: 64px;
+}
+
+#mainP2 {
+    color: #CCCCCC;
+    font-size: 18px;
+}
+
+#ctn1Main > p > strong {
+    color: #BF0E54;
+    
+}
+
+#ctn2Main {
+
+    width: 500px;
+    height: 400px;
+
+    position: relative;
+
+}
+
+#ctn2Main > div {
+    width: 100%;
+    height: 100%;
+    background-color: #BF0E54;
+
+    position: absolute;
+
+    top: 100px;
+    right: 0;
+    z-index: 1;
+
+    border-radius: 40px;
+}
+
+#ctn2Main > div > div {
+    width: 80%;
+    height: 100%;
+
+    background-color: #31333f;
+
+    position: absolute;
+    z-index: 2;
+    top: -50px;
+    left: 30px;
+
+}
+
+#ctn2Main > div > img {
+    z-index: -1;
+    opacity: 30%;
+    width: 100%;
+    height: 100%;
+}
+
+#mainParte2{
+    width: 100%;
+    margin-top: 200px;
+}
+
+#mainParte2 > h3 {
+    color: white;
+}
+
+#mainParte2 > p {
+    color: #cccccc;
+}
+
+#mainParte2 > div{
+    width: 100%;
+    height: 500px;
+    background-color: #31333f;
+    border-radius: 40px;
+}
+
+#mainParte2 > div > div {
+    width: 40%;
+    height: 100%;
+    background-color: #BF0E54;
+    border-radius: 40px;
+}
+
+#mainParte2 > div > div > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    opacity: 30%;
+}
